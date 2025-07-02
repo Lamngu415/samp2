@@ -53,4 +53,4 @@ jobs:
           app-name: 'testmemory'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D96EFDF7D95E4E199F186AC702985C92 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_54CFE228FBD4492783955BA44BA633B7 }}
