@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS Detailed Error - 400.0 - Bad Request</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+<h3>HTTP Error 400.0 - Bad Request</h3> 
+<h4>Bad Request</h4> 
+</div> 
+<div class="content-container"> 
+<fieldset><h4>Most likely causes:</h4> 
+<ul> 	<li></li> </ul> 
+</fieldset> 
+</div> 
+<div class="content-container"> 
+<fieldset><h4>Things you can try:</h4> 
+<ul> 	<li>Create a tracing rule to track failed requests for this HTTP status code. For more information about creating a tracing rule for failed requests, click <a href="http://go.microsoft.com/fwlink/?LinkID=66439">here</a>. </li> </ul> 
+</fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+<fieldset><h4>Detailed Error Information:</h4> 
+<div id="details-left"> 
+<table border="0" cellpadding="0" cellspacing="0"> 
+<tr class="alt"><th>Module</th><td>&nbsp;&nbsp;&nbsp;httpPlatformHandler</td></tr> 
+<tr><th>Notification</th><td>&nbsp;&nbsp;&nbsp;ExecuteRequestHandler</td></tr> 
+<tr class="alt"><th>Handler</th><td>&nbsp;&nbsp;&nbsp;httpPlatformHandlerMain</td></tr> 
+<tr><th>Error Code</th><td>&nbsp;&nbsp;&nbsp;0x80072746</td></tr> 
+ 
+</table> 
+</div> 
+<div id="details-right"> 
+<table border="0" cellpadding="0" cellspacing="0"> 
+<tr class="alt"><th>Requested URL</th><td>&nbsp;&nbsp;&nbsp;http://appservicespecialistossjavawin2w7li62znafw7a:80/</td></tr> 
+<tr><th>Physical Path</th><td>&nbsp;&nbsp;&nbsp;C:\home\site\wwwroot</td></tr> 
+<tr class="alt"><th>Logon Method</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+<tr><th>Logon User</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+ 
+</table> 
+<div class="clear"></div> 
+</div> 
+</fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+<fieldset><h4>More Information:</h4> 
+The request could not be understood by the server due to malformed syntax. 
+<p><a href="http://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=400,0,0x80072746,20348">View more information &raquo;</a></p> 
+<p>Microsoft Knowledge Base Articles:</p> 
+  
+ 
+</fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+2025-07-01T06:20:49  No new trace in the past 1 min(s).
+2025-07-01 06:18:16 APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET / X-ARR-LOG-ID=b6c6cea2-d9a6-4e35-b1d8-e8f874a80c24 443 - 20.44.193.120 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/138.0.0.0+Safari/537.36+Edg/138.0.0.0 ARRAffinity=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd;+ARRAffinitySameSite=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd - appservicespecialistossjavawin2w7li62znafw7a.azurewebsites.net 200 0 0 424 1747 7043
+2025-07-01 06:18:22 ~1APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET /api/settings/branch X-ARR-LOG-ID=68bd590b-a3ef-4a5b-bbff-b4577b199c6e 443 - 20.205.69.84 Azure-WebSites-Controller/104.0.7.183 - - appservicespecialistossjavawin2w7li62znafw7a.scm.azurewebsites.net 200 0 0 576 1371 15312
+2025-07-01 06:18:22 APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET / X-ARR-LOG-ID=7e1f1225-051f-4964-b33f-6c1088f1983b 443 - 20.44.193.120 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/138.0.0.0+Safari/537.36+Edg/138.0.0.0 ARRAffinity=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd;+ARRAffinitySameSite=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd - appservicespecialistossjavawin2w7li62znafw7a.azurewebsites.net 200 0 0 424 1747 5947
+2025-07-01 06:18:38 APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET / X-ARR-LOG-ID=299d63a5-3910-4261-9cb3-0969ff54e612 443 - 20.44.241.193 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/138.0.0.0+Safari/537.36+Edg/138.0.0.0 ARRAffinity=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd;+ARRAffinitySameSite=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd - appservicespecialistossjavawin2w7li62znafw7a.azurewebsites.net 200 0 0 424 1745 21682
+2025-07-01 06:18:52 APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET / X-ARR-LOG-ID=14c9944c-7325-46c5-a377-10ebbc4d9e82 443 - 20.44.241.193 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/138.0.0.0+Safari/537.36+Edg/138.0.0.0 ARRAffinity=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd;+ARRAffinitySameSite=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd - appservicespecialistossjavawin2w7li62znafw7a.azurewebsites.net 200 0 0 424 1745 6661
+2025-07-01 06:19:00 APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET / X-ARR-LOG-ID=eb4ea516-dcde-4482-8899-858723da12bd 443 - 20.44.193.120 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/138.0.0.0+Safari/537.36+Edg/138.0.0.0 ARRAffinity=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd;+ARRAffinitySameSite=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd - appservicespecialistossjavawin2w7li62znafw7a.azurewebsites.net 200 0 0 424 1747 8019
+2025-07-01 06:19:06 ~1APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET / - 80 - 10.0.32.6 AlwaysOn - - appservicespecialistossjavawin2w7li62znafw7a.azurewebsites.net 200 0 0 8443 559 5612
+2025-07-01 06:19:06 APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET / X-ARR-LOG-ID=e80b67e8-7cbb-41c9-b761-cca3fb49aeb3 80 - 127.0.0.1 AlwaysOn ARRAffinity=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd - appservicespecialistossjavawin2w7li62znafw7a.azurewebsites.net 400 0 64 0 845 5612
+2025-07-01T06:22:56  No new trace in the past 1 min(s).
+2025-07-01 06:19:30 ~1APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET /api/logstream X-ARR-LOG-ID=63c041a6-6c11-4269-b544-e7856e040b49 443 - 20.44.241.194 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/138.0.0.0+Safari/537.36+Edg/138.0.0.0 ARRAffinity=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd;+ARRAffinitySameSite=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd https://appservicespecialistossjavawin2w7li62znafw7a.scm.azurewebsites.net/ appservicespecialistossjavawin2w7li62znafw7a.scm.azurewebsites.net 200 0 64 677 1931 105051
+2025-07-01 06:19:46 ~1APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET /api/settings/branch X-ARR-LOG-ID=fdf73c90-19ac-46e7-a01c-5094bc334f18 443 - 20.205.69.84 Azure-WebSites-Controller/104.0.7.183 - - appservicespecialistossjavawin2w7li62znafw7a.scm.azurewebsites.net 200 0 64 0 1373 46223
+2025-07-01 06:20:04 APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET / X-ARR-LOG-ID=890e302c-d7a3-4056-9957-048d227577ed 443 - 20.44.193.120 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/138.0.0.0+Safari/537.36+Edg/138.0.0.0 ARRAffinity=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd;+ARRAffinitySameSite=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd - appservicespecialistossjavawin2w7li62znafw7a.azurewebsites.net 200 0 0 424 1747 221
+2025-07-01 06:20:16 APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET / X-ARR-LOG-ID=f549c4fd-5d55-4c29-b274-f8e8366d942c 443 - 20.44.241.193 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/138.0.0.0+Safari/537.36+Edg/138.0.0.0 ARRAffinity=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd;+ARRAffinitySameSite=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd - appservicespecialistossjavawin2w7li62znafw7a.azurewebsites.net 200 0 0 424 1745 10319
+2025-07-01 06:20:27 APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET / X-ARR-LOG-ID=843f93d4-077d-4a61-b03d-30c6f6d7a42f 443 - 20.44.193.120 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/138.0.0.0+Safari/537.36+Edg/138.0.0.0 ARRAffinity=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd;+ARRAffinitySameSite=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd - appservicespecialistossjavawin2w7li62znafw7a.azurewebsites.net 200 0 0 424 1747 11274
+2025-07-01 06:20:36 APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET / X-ARR-LOG-ID=78b34cee-4097-4aa2-8720-60c6a5f26f9e 443 - 20.44.241.193 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/138.0.0.0+Safari/537.36+Edg/138.0.0.0 ARRAffinity=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd;+ARRAffinitySameSite=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd - appservicespecialistossjavawin2w7li62znafw7a.azurewebsites.net 200 0 0 424 1745 12730
+2025-07-01 06:21:29 ~1APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET / X-ARR-LOG-ID=51369c4f-2587-425f-92b9-d92f93e506c8 443 - 20.44.241.192 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/138.0.0.0+Safari/537.36+Edg/138.0.0.0 ARRAffinity=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd;+ARRAffinitySameSite=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd - appservicespecialistossjavawin2w7li62znafw7a.scm.azurewebsites.net 200 0 0 9086 1799 12906
+2025-07-01 06:22:06 ~1APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET /Content/Styles/bootstrap.min.css X-ARR-LOG-ID=8695bb47-bdf1-4776-a504-816001851946 443 - 20.44.241.192 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/138.0.0.0+Safari/537.36+Edg/138.0.0.0 ARRAffinity=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd;+ARRAffinitySameSite=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd https://appservicespecialistossjavawin2w7li62znafw7a.scm.azurewebsites.net/ appservicespecialistossjavawin2w7li62znafw7a.scm.azurewebsites.net 304 0 0 388 1933 37053
+2025-07-01 06:22:06 ~1APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET /Content/Scripts/bootstrap.min.js X-ARR-LOG-ID=90510595-00d4-4428-a45e-ebe73298891d 443 - 20.44.241.193 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/138.0.0.0+Safari/537.36+Edg/138.0.0.0 ARRAffinity=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd;+ARRAffinitySameSite=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd https://appservicespecialistossjavawin2w7li62znafw7a.scm.azurewebsites.net/ appservicespecialistossjavawin2w7li62znafw7a.scm.azurewebsites.net 304 0 0 388 1917 36047
+2025-07-01 06:22:06 ~1APPSERVICESPECIALISTOSSJAVAWIN2W7LI62ZNAFW7A GET /Content/Scripts/jquery-2.1.0.min.js X-ARR-LOG-ID=5b539728-1f41-437c-8f4d-d4c43e395370 443 - 20.44.241.193 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/138.0.0.0+Safari/537.36+Edg/138.0.0.0 ARRAffinity=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd;+ARRAffinitySameSite=aed47ff45c26771e2f903fd92f4c3bcf87bfdeae6a16ee76ad9ffa04fd94eafd https://appservicespecialistossjavawin2w7li62znafw7a.scm.azurewebsites.net/ appservicespecialistossjavawin2w7li62znafw7a.scm.azurewebsites.net 304 0 0 388 1928 33301
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
